@@ -64,7 +64,6 @@ describe('App', () => {
                     // console.log(app2.state());
                     expect(app2.state().notes).toEqual([{ text: testNote }])
                 })
-
             });
 
             describe('and clicking the clear button', () => {
